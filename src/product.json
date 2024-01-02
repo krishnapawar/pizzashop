@@ -1,0 +1,145 @@
+{
+    "foodList": [
+      {
+        "id": 1,
+        "title": "Pizza Margherita",
+        "description": "Classic Italian pizza with tomato, mozzarella, and basil.",
+        "image": "/images/peproni.png",
+        "price": 12.99
+      },
+      {
+        "id": 2,
+        "title": "Burger Deluxe",
+        "description": "Juicy beef patty with lettuce, tomato, cheese, and special sauce.",
+        "image": "/images/BurgerDeluxe.jfif",
+        "price": 9.99
+      },
+      {
+        "id": 3,
+        "title": "Spaghetti Bolognese",
+        "description": "Traditional Italian pasta with rich meat sauce.",
+        "image": "/images/pizza.png",
+        "price": 14.99
+      },
+      {
+        "id": 4,
+        "title": "Sushi Combo",
+        "description": "Assorted sushi rolls with soy sauce and wasabi.",
+        "image": "https://placehold.co/600x600",
+        "price": 19.99
+      },
+      {
+        "id": 5,
+        "title": "Salad Bowl",
+        "description": "Fresh garden salad with mixed greens, veggies, and vinaigrette.",
+        "image": "/images/pizza.png",
+        "price": 8.99
+      },
+      {
+        "id": 6,
+        "title": "Chicken Tandoori",
+        "description": "Spiced and grilled chicken served with naan and mint sauce.",
+        "image": "https://placehold.co/600x600",
+        "price": 16.99
+      },
+      {
+        "id": 7,
+        "title": "Vegetarian Wrap",
+        "description": "Wrap filled with fresh vegetables, hummus, and feta cheese.",
+        "image": "/images/pizza.png",
+        "price": 7.99
+      },
+      {
+        "id": 8,
+        "title": "Chocolate Fondue",
+        "description": "Assorted fruits and marshmallows with rich chocolate fondue.",
+        "image": "https://placehold.co/600x600",
+        "price": 12.99
+      },
+      {
+        "id": 9,
+        "title": "Shrimp Scampi",
+        "description": "Garlic butter shrimp served over linguine pasta.",
+        "image": "/images/pizza.png",
+        "price": 22.99
+      },
+      {
+        "id": 10,
+        "title": "Fruit Smoothie",
+        "description": "Refreshing blend of mixed fruits and yogurt.",
+        "image": "/images/peproni.png",
+        "price": 5.99
+      },
+      {
+        "id": 11,
+        "title": "Steakhouse Ribeye",
+        "description": "Grilled ribeye steak seasoned to perfection.",
+        "image": "https://placehold.co/600x600",
+        "price": 29.99
+      },
+      {
+        "id": 12,
+        "title": "Mango Tango Salad",
+        "description": "Fresh mango slices with mixed greens and tangy dressing.",
+        "image": "/images/pizza.png",
+        "price": 10.99
+      },
+      {
+        "id": 13,
+        "title": "Lemon Garlic Roast Chicken",
+        "description": "Roast chicken with lemon and garlic, served with roasted vegetables.",
+        "image": "https://placehold.co/600x600",
+        "price": 18.99
+      },
+      {
+        "id": 14,
+        "title": "Caprese Panini",
+        "description": "Panini sandwich with tomatoes, mozzarella, and basil.",
+        "image": "/images/peproni.png",
+        "price": 13.99
+      },
+      {
+        "id": 15,
+        "title": "Seafood Paella",
+        "description": "Spanish paella with a mix of seafood and saffron-infused rice.",
+        "image": "https://placehold.co/600x600",
+        "price": 24.99
+      },
+      {
+        "id": 16,
+        "title": "Cheesecake Delight",
+        "description": "Creamy cheesecake topped with fresh berries.",
+        "image": "/images/peproni.png",
+        "price": 15.99
+      },
+      {
+        "id": 17,
+        "title": "Tropical Punch Smoothie",
+        "description": "A tropical blend of pineapple, mango, and coconut.",
+        "image": "https://placehold.co/600x600",
+        "price": 6.99
+      },
+      {
+        "id": 18,
+        "title": "Crispy Calamari",
+        "description": "Fried calamari rings with zesty marinara sauce.",
+        "image": "https://placehold.co/600x600",
+        "price": 11.99
+      },
+      {
+        "id": 19,
+        "title": "Vegetable Curry",
+        "description": "Spicy and flavorful vegetable curry with basmati rice.",
+        "image": "https://placehold.co/600x600",
+        "price": 17.99
+      },
+      {
+        "id": 20,
+        "title": "Peach Cobbler",
+        "description": "Warm peach cobbler with a scoop of vanilla ice cream.",
+        "image": "https://placehold.co/600x600",
+        "price": 8.99
+      }
+    ]
+  }
+  

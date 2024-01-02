@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+</html>
+
+<script>
+const fs = require('fs');
+
+const filePath = 'product.json';
+
+// Function to read data from the file
+function readData() {
+  try {
+    const jsonData = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(jsonData);
+  } catch (error) {
+    console.error('Error reading data:', error.message);
+    return [];
+  }
+}
+
+// Function to write data to the file
+function writeData(data) {
+  try {
+    const jsonData = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, jsonData, 'utf8');
+    console.log('Data written to file successfully.');
+  } catch (error) {
+    console.error('Error writing data:', error.message);
+  }
+}
+
+// Function to generate a unique ID
+function generateUniqueId(data) {
+  const existingIds = data.map(item => item.id);
+  const newId = Math.max(...existingIds, 0) + 1;
+  return newId;
+}
+
+// Function to add a new item to the data
+function addItem(newItem) {
+  const data = readData();
+  newItem.id = generateUniqueId(data);
+  data.push(newItem);
+  writeData(data);
+}
+
+// Example usage
+addItem({ name: 'New Item' });
+
+</script>
